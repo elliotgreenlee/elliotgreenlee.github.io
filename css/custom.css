@@ -85,3 +85,42 @@ footer {
         margin-bottom: 0.5em;
     }
 }
+
+/* Navigation */
+nav {
+    background-color: #2C3E50;  /* Dark blue for the navbar background */
+    padding: 0.5em 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;  /* Evenly spaced items */
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ECF0F1;  /* Off-white color for text */
+    padding: 0.5em 1em;
+    transition: color 0.3s, background-color 0.3s;
+    border-radius: 5px;  /* Rounded corners for a modern look */
+}
+
+nav ul li a:hover {
+    color: #2C3E50;  /* Dark blue text on hover */
+    background-color: #ECF0F1;  /* Off-white background on hover */
+}
+
+/* Section Headings */
+h1, h2 {
+    color: #34495E;  /* Darker blue for headings */
+}
+
+/* Highlight email link */
+#contact a {
+    color: #3498DB;  /* Bright blue for links */
+}
