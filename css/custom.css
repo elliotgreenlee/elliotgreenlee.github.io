@@ -1,0 +1,87 @@
+/* Reset */
+body, h1, h2, h3, h4, h5, h6, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+/* Navigation */
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #eee;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 0.5em 1em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #007BFF;
+}
+
+/* Sections */
+section {
+    margin: 3em 0;
+}
+
+h1, h2 {
+    margin-bottom: 1em;
+}
+
+p {
+    margin-bottom: 1.5em;
+}
+
+/* Footer */
+footer {
+    border-top: 1px solid #eee;
+    padding-top: 1em;
+    margin-top: 3em;
+    text-align: center;
+}
+
+/* Additional stylings */
+
+/* Add some spacing to top for better view */
+#home {
+    margin-top: 2em;
+}
+
+/* Highlight email link */
+#contact a {
+    color: #007BFF;
+}
+
+/* For small screens, stacked navigation */
+@media screen and (max-width: 640px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+        border-bottom: none;
+    }
+
+    nav ul li {
+        margin-bottom: 0.5em;
+    }
+}
