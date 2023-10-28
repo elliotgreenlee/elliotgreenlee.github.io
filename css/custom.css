@@ -17,76 +17,6 @@ body {
 }
 
 /* Navigation */
-nav ul {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    padding-bottom: 1em;
-    border-bottom: 1px solid #eee;
-}
-
-nav ul li {
-    display: inline-block;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #333;
-    padding: 0.5em 1em;
-    transition: color 0.3s;
-}
-
-nav ul li a:hover {
-    color: #007BFF;
-}
-
-/* Sections */
-section {
-    margin: 3em 0;
-}
-
-h1, h2 {
-    margin-bottom: 1em;
-}
-
-p {
-    margin-bottom: 1.5em;
-}
-
-/* Footer */
-footer {
-    border-top: 1px solid #eee;
-    padding-top: 1em;
-    margin-top: 3em;
-    text-align: center;
-}
-
-/* Additional stylings */
-
-/* Add some spacing to top for better view */
-#home {
-    margin-top: 2em;
-}
-
-/* Highlight email link */
-#contact a {
-    color: #007BFF;
-}
-
-/* For small screens, stacked navigation */
-@media screen and (max-width: 640px) {
-    nav ul {
-        flex-direction: column;
-        text-align: center;
-        border-bottom: none;
-    }
-
-    nav ul li {
-        margin-bottom: 0.5em;
-    }
-}
-
-/* Navigation */
 nav {
     background-color: #2C3E50;  /* Dark blue for the navbar background */
     padding: 0.5em 0;
@@ -124,3 +54,17 @@ h1, h2 {
 #contact a {
     color: #3498DB;  /* Bright blue for links */
 }
+
+/* For small screens, stacked navigation */
+@media screen and (max-width: 640px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+        border-bottom: none;
+    }
+
+    nav ul li {
+        margin-bottom: 0.5em;
+    }
+}
+
